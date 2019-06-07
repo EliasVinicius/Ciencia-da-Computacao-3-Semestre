@@ -1,0 +1,216 @@
+Lista de Exercícios de Funções e
+Procedimentos em Linguagem C
+1. Faça uma função que recebe por parâmetro o raio de uma esfera
+e calcula o seu volume (v = 4/3*π*R3
+).
+2. Escreva uma função que recebe as 3 notas de um aluno por
+parâmetro e uma letra. Se a letra for A a função calcula a média
+aritmética das notas do aluno, se for P, a sua média ponderada
+(pesos: 5, 3 e 2) e se for H, a sua média harmônica.
+3. Escreva uma função chamada DATA_VALIDA que receba uma
+data (DIA, MÊS e ANO) e verifique se a data é válida ou não.
+4. Faça uma função que recebe por parâmetro os valores
+necessários para o cálculo da fórmula de Báscara e retorna,
+também por parâmetro, as suas raízes, caso seja possível calcular.
+5. Faça uma função que recebe por parâmetro o tempo de duração
+de uma fábrica expressa em segundos e retorna também por
+parâmetro esse tempo em horas, minutos e segundos.
+6. Faça uma função que recebe a idade de uma pessoa em anos,
+meses e dias e retorna essa idade expressa em dias.
+7. Faça uma função que verifique se um valor é perfeito ou não. Um
+valor é dito perfeito quando ele é igual a soma dos seus divisores
+excetuando ele próprio. (Ex: 6 é perfeito, 6 = 1 + 2 + 3, que são
+seus divisores). A função deve retornar um valor booleano.
+8. Faça uma função que recebe a idade de um nadador por
+parâmetro e retorna , também por parâmetro, a categoria desse
+nadador de acordo com a tabela abaixo:
+Idade Categoria
+5 a 7 anos Infantil A
+8 a 10 anos Infantil B
+11-13 anos Juvenil A
+14-17 anos Juvenil B
+Maiores de 18 anos
+(inclusive)
+Adulto
+9. Faça uma função que recebe um valor inteiro e verifica se o valor
+é positivo ou negativo. A função deve retornar um valor booleano.
+10. Faça uma função que recebe um valor inteiro e verifica se o
+valor é par ou ímpar. A função deve retornar um valor booleano.
+11. Faça uma função que recebe a média final de um aluno por
+parãmetro e retorna o seu conceito, conforme a tabela abaixo:
+Nota Conceito
+de 0,0 a 4,9 D
+de 5,0 a 6,9 C
+de 7,0 a 8,9 B
+de 9,0 a 10,0 A
+12. Faça uma função que recebe, por parâmetro a hora de início e a
+hora de término de um jogo, ambas subdivididas em 2 valores
+distintos: horas e minutos. A função deve retornar, também por
+parâmetro, a duração do jogo em horas e minutos, considerando
+que o tempo máximo de duração de um jogo é de 24 horas e que o
+jogo pode começar em um dia e terminar no outro.
+13. Escreva uma função que recebe 3 valores reais X, Y e Z e que
+verifique se esses valores podem ser os comprimentos dos lados de
+um triângulo e, neste caso, retornar qual o tipo de triângulo
+formado. Para que X, Y e Z formem um triângulo é necessário que a
+seguinte propriedade seja satisfeita: o comprimento de cada lado de
+um triângulo é menor do que a soma do comprimento dos outros 
+dois lados. A função deve identificar o tipo de triângulo formado
+observando as seguintes definições:
+o Triângulo Eqüilátero: os comprimentos dos 3 lados são
+iguais.
+o Triângulo Isósceles: os comprimentos de 2 lados são
+iguais.
+o Triângulo Escaleno: os comprimentos dos 3 lados são
+diferentes.
+14. A prefeitura de uma cidade fez uma pesquisa entre os seus
+habitantes, coletando dados sobre o salário e número de filhos.
+Faça uma função que leia esses dados para um número não
+determinado de pessoas e retorne a média de salário da população,
+a média do número de filhos, o maior salário e o percentual de
+pessoas com salário até R$350,00.
+15. Faça uma função que lê 10 valores inteiros e retorna o maior e o
+menor deles.
+16. Faça uma função que recebe, por parâmetro, um valor N e
+calcula e escreve a tabuada de 1 até N. Mostre a tabuada na forma:
+1 x N = N
+2 x N = 2N
+...
+N x N = N2
+17. Faça uma função que recebe, por parâmetro, um valor inteiro e
+positivo e retorna o número de divisores desse valor.
+18. Escreva uma função que recebe, por parâmetro, um valor inteiro
+e positivo e retorna o somatório desse valor.
+19. Escreva uma função que recebe por parâmetro um valor inteiro
+e positivo N e retorna o valor de S.
+S = 1 + ½ + 1/3 + ¼ + 1/5 + 1/N.
+20. Escreva uma função que gere a matriz transposta de uma
+matriz 5x5 dada pelo usuário (a transposta é obtida permutando-se
+as linhas e as colunas de uma matriz).
+21. Uma matriz quadrada A, cujos elementos são designados por
+Ai,j, é dita simétrica se Ai,j = Aj,i. Construir um sub-algoritmo para
+ler uma matriz NxN do usuário (onde o valor de N também é
+fornecido pelo usuário) e determinar se ela é ou não simétrica.
+22. Número primo é aquele que só é divisível por ele mesmo e pela
+unidade.
+Fazer um sub-algoritmo que determine e escreva os números
+primos compreendidos entre 5.000 e 7.000.
+23. Faça uma função que recebe uma matriz, suas dimensões e um
+valor inteiro e modifica cada posição da matriz pela multiplicação do
+valor original da matriz pelo valor passado.
+24. Escrever um sub-algoritmo que leia dois vetores com 10
+elementos inteiros cada, considerando cada vetor como sendo um
+conjunto, crie um terceiro vetor que seja a uni„o dos dois primeiros e
+o mostre os elementos deste novo conjunto (não devem haver
+elementos repetidos no vetor solução).
+25. Crie um sub-algoritmo que leia um número n e mostre os n
+elementos da Série de Fibonacci.
+26.
+27. Fazer um programa em Linguagem C para ler um vetor de N
+números reais a partir do teclado. Em seguida, imprimir apenas os
+números positivos do vetor lido.
+Instruções:
+• Implemente um procedimento chamado lerVetor que atenda à
+seguinte especificação:
+Recebe: 
+• Um vetor de números reais
+• Quantidade de elementos usados no vetor
+Efeito: Lê tal quantidade de números reais a partir do teclado,
+armazenando-os no vetor.
+• Implemente um procedimento chamado imprimirPositivos que
+atenda à seguinte especificação:
+Recebe:
+• Um vetor de números reais
+• Quantidade de elementos usados no vetor (n)
+Efeito: Imprime os números positivos do vetor na tela do
+computador.
+28. Fazer um programa com sub-algoritmos para ler um vetor de N
+números reais a partir do teclado. Somar cinco unidades a cada um
+dos elementos do vetor e imprimir o vetor assim modificado na tela.
+Instruções:
+• Aproveite o procedimento lerVetor feito no exercício anterior.
+• Implemente um procedimento chamado somarValor que atenda à
+seguinte especificação:
+Recebe:
+• Um vetor de números reais
+• Quantidade de elementos usados no vetor (n)
+• Um número real x
+Efeito: Altera o conteúdo do vetor dado, somando o número x a
+cada um dos n elementos do vetor.
+• Implemente um procedimento chamado imprimirVetor que atenda
+à seguinte especificação:
+Recebe:
+• Um vetor de números reais 
+• Quantidade de elementos usados no vetor (n)
+Efeito: Imprime o vetor na tela do computador.
+29. Fazer um programa com sub-algoritmos para ler dois vetores A
+e B de números reais de N elementos cada um. Em seguida, gerar
+um vetor C onde cada elemento de C é a soma dos elementos
+correspondentes de A e B. Imprimir o vetor C.
+30. Fazer um programa usando subalgoritmos para ler um vetor de
+N números inteiros e, em seguida, mostrar na tela apenas os
+números pares deste vetor, depois imprimir na tela apenas os
+números negativos.
+31. Escreva uma função que recebe 2 números inteiros n1 e n2
+como entrada e retorna a soma de todos os números inteiros
+contidos no intervalo [n1,n2]. Use esta função num programa que lê
+n1 e n2 do usuário e imprime a soma.
+32. Faça um programa calculadora simples com as seguintes
+operações possíveis: adição, subtração, multiplicação e divisão. O
+programa inicia apresentando ao usuário um menu de opções como
+mostrado
+abaixo:
+**********************************************************************
+* Calculadora Simples. Opcoes possiveis:
+* 1. Adicao
+* 2. Subtracao
+* 3. Multiplicacao
+* 4. Divisao
+* 5. Sair do programa
+*********************************************************************
+Entre com sua opcao:
+Crie uma função que apresenta o menu inicial acima e retorna a
+opção do usuário para o programa principal. Esta opção é então
+analisada e o programa principal chama as funções de adição,
+subtração, multiplicação e divisão conforme a opção do usuário. Se
+a opção for inválida, informe ao usuário e peça a ele para entrar
+com uma opção válida. Após a execução da operação o programa
+volta a apresentar o menu inicial até que o usuário encerre o
+programa com a opção 5.
+33. Escreva um programa que lê um valor inteiro (maior do que 1 e
+menor ou igual a 10) e exibe a tabuada (até 10) de multiplicação do
+número lido. Você deverá escrever as seguintes funções e
+procedimentos:
+Function LeNumero(n1,n2:integer):integer;
+Lê um número inteiro no intervalo especificado (n1,n2) e o retorna. Cada
+vez que for digitado um número inválido (fora do intervalo especificado) a
+função deve exibir a mensagem "Número inválido. Digite novamente!"
+Procedure Tabuada( n:integer );
+Recebe como parâmetro um número inteiro e exibe na tela a tabuada de
+multiplicação até 10 do número lido.
+Exemplo: número lido 5
+5 x 1 = 5
+5 x 2 = 10
+....
+5 x 10 = 50
+34. Faça um programa que leia repetidamente 5 valores e carregue
+os mesmos em um Vetor A
+(var. global). Um procedimento fatorial deverá calcular o fatorial de
+todos os valores e
+colocar nas respectivas posições de um vetor B (var. global). O
+valor de todos os 5 fatoriais
+deverá ser apresentado em cada repetição. O programa deverá
+parar quando for lido valor negativo para a 1ª posição do vetor A.
+35. Faça um programa que leia todos os elementos de uma matriz
+5x6. O programa principal deverá chamar e apresentar o resultado
+de cada uma das funções abaixo. A matriz deverá ser uma variável
+global não sendo passada como parâmetro da função. 
+a) a média aritmética dos elementos abaixo da diagonal principal.
+b) a soma dos elementos acima da diagonal principal.
+c) a média aritmética dos elementos da diagonal principal
+d) o menor elemento da matriz
+e) a soma dos elementos da matriz
+36. Crie um procedimento para imprimir o conteúdo de um vetor de
+10 posições. Esse procedimento deve receber um parâmetro do tipo
+caractere que indica se o conteúdo deve ser exibido na ordem
+correta ou na ordem inversa (“C” para correta e “I” para inversa).
